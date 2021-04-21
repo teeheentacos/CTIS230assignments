@@ -1,0 +1,41 @@
+body {  
+    color:teal;  
+    background-color:darkgray;
+    font-size:large;
+    font-size:1.75em;
+    font-family:monospace;
+}
+h1 {  
+    color:steelblue;  
+    width: fit-content;
+    font-weight:lighter;
+}
+h2 {  
+    color:steelblue;  
+    font-weight:lighter;
+    font-style:italic;
+}
+
+strong {
+    color:royalblue;
+}
+
+em{
+    color:royalblue;
+}
+
+a:link {  
+    color:steelblue;  
+}
+
+a:visited {  
+    color:steelblue  
+}
+
+a:hover {  
+    color:royalblue;  
+}
+
+a:active {  
+    color:royalblue;  
+}
