@@ -6,36 +6,88 @@ body {
     font-family:monospace;
 }
 h1 {  
-    color:steelblue;  
-    width: fit-content;
     font-weight:lighter;
+
 }
 h2 {  
-    color:steelblue;  
     font-weight:lighter;
     font-style:italic;
 }
 
-strong {
+h1, h2, a:link, a:visited{
+    color:steelblue;
+}
+
+strong, em, a:hover, a:active{
     color:royalblue;
 }
 
-em{
-    color:royalblue;
+ul i{
+    color:rgb(26, 79, 97);
 }
 
-a:link {  
-    color:steelblue;  
+p.link{
+    font-size: larger;
+    color:rgb(0, 196, 199);
 }
 
-a:visited {  
-    color:steelblue  
+li.robo{
+    font-weight: bolder;
 }
 
-a:hover {  
-    color:royalblue;  
+img#BoatPic{
+    width: 400px;
 }
 
-a:active {  
-    color:royalblue;  
+img#SchoolLogo{
+    width: 200px;
+    float:right;
 }
+
+ul{
+    width:50%;
+    margin: auto;
+}
+
+li{
+    padding:5px;
+    text-align:left;
+}
+
+body{
+    margin-top:0;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align:center;
+}
+
+p#educationpara{
+    text-align:left;
+}
+
+div.navigation {  
+    display:flex;  
+}
+
+
+div.content {
+    font-size: 1.25em;
+    text-align: center;
+    width: 100%;
+    border-style:solid;
+    border-color: black;
+    background-color: slategray;
+  }
+
+  a.headerlink, a.emaillink{
+      color:rgb(0, 46, 83);
+  }
+
+  footer{
+    margin-top:50px;
+    border-style:groove;
+    border-color:steelblue black;
+    border-width: 12px;
+    background-color: slategray;
+    color:rgb(0, 46, 83);
+  }
