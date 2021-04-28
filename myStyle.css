@@ -91,3 +91,28 @@ div.content {
     background-color: slategray;
     color:rgb(0, 46, 83);
   }
+
+  ul#expList{
+    display:none;
+  }
+
+  button{
+      background-color:darkgray;
+      font-size:.75em;
+      color:teal;
+      border-style:solid;
+      border-color:black;
+      margin-top:25px;
+  }
+
+  ul#awardList{
+      display:none;
+  }
+
+  ul#activityList{
+      display:none;
+  }
+
+  ul#skillList{
+      display:none
+  }
