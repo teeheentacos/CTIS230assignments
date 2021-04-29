@@ -8,7 +8,7 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     text-align:center;
-    border-style:solid; /**/
+    border-style:solid; /*	Added a border to the body element*/
     border-color: black;
 }
 h1 {  
@@ -67,7 +67,7 @@ p#educationpara{
 
 div.navigation {  
     display:flex;  
-    width:100%;/* */
+    width:100%;/*Specified width of the navigation flex box */
 }
 
 
@@ -79,7 +79,7 @@ div.content {
     background-color: slategray;
   }
 
-  header{ /* */
+  header{ /* Specified width of the header*/
       width:100%;
   }
 
@@ -135,19 +135,19 @@ div.content {
       body{
         margin-left:5%;
         margin-right:5%;
-        font-size:1.25em;/**/
+        font-size:1.25em;/*Decrease text size as the page gets smaller*/
       }
-      img#SchoolLogo{ /**/
+      img#SchoolLogo{ /* School logo size made smaller*/
         width: 15%;
       }
   }
 
   @media screen and (orientation:portrait){
-    header{ /**/
+    header{ /*Additional text decrease of the header if in portrait*/
         font-size:.9em;
     }
 
-    img#BoatPic{ /**/
+    img#BoatPic{ /*Chnages the boat image to fill up the whole page if in portrait*/
         width:100%;
     }
   }
