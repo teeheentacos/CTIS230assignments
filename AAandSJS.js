@@ -54,3 +54,25 @@ function onSkillClick(){
     skillIsClicked = true;
     }
 }
+
+robotImage = document.getElementById("Robot");
+robotImage.addEventListener("click", expandImage);
+var x = window.matchMedia("(orientation:landscape)")
+
+function expandImage(){
+    if(robotImage.style.position == ""){
+        robotImage.style.position = "absolute";
+        robotImage.style.width = "50%";
+        if(x.matches){
+            robotImage.style.top =  "400px";
+            robotImage.style.bottom  = "20%";
+        }
+    }
+
+    else if(robotImage.style.position == "absolute"){
+        robotImage.style.position = "";
+        robotImage.style.width = "100px";
+    }
+}
+
+ 

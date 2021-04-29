@@ -50,6 +50,7 @@ img#SchoolLogo{
     float:right;
 }
 
+
 ul{
     width:50%;
     margin: auto;
@@ -120,6 +121,16 @@ div.content {
       display:none
   }
 
+  img#Robot{
+    width: 100px;
+    float:left;
+    }
+
+   p#robotPara{
+    margin-left:10%;
+    margin-right:20%;
+   } 
+
   @media(max-width: 850px){
       body{
         margin-left:5%;
@@ -140,4 +151,6 @@ div.content {
         width:100%;
     }
   }
+
+
 
