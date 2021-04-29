@@ -4,6 +4,12 @@ body {
     font-size:large;
     font-size:1.75em;
     font-family:monospace;
+    margin-top:0;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align:center;
+    border-style:solid; /**/
+    border-color: black;
 }
 h1 {  
     font-weight:lighter;
@@ -54,29 +60,26 @@ li{
     text-align:left;
 }
 
-body{
-    margin-top:0;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align:center;
-}
-
 p#educationpara{
     text-align:left;
 }
 
 div.navigation {  
     display:flex;  
+    width:100%;/* */
 }
 
 
 div.content {
-    font-size: 1.25em;
     text-align: center;
     width: 100%;
     border-style:solid;
     border-color: black;
     background-color: slategray;
+  }
+
+  header{ /* */
+      width:100%;
   }
 
   a.headerlink, a.emaillink{
@@ -116,3 +119,25 @@ div.content {
   ul#skillList{
       display:none
   }
+
+  @media(max-width: 850px){
+      body{
+        margin-left:5%;
+        margin-right:5%;
+        font-size:1.25em;/**/
+      }
+      img#SchoolLogo{ /**/
+        width: 15%;
+      }
+  }
+
+  @media screen and (orientation:portrait){
+    header{ /**/
+        font-size:.9em;
+    }
+
+    img#BoatPic{ /**/
+        width:100%;
+    }
+  }
+
